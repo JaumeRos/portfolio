@@ -11,31 +11,40 @@
 </head>
 <body>
   <!-- # Navbar -->
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <a class="navbar-brand" href="#">
-      <img src="images/logo.jpg" />
-    </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Jaume Ros Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Messages</a>
+          <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
     </div>
-  </div>
+  </nav>
    <!-- # Navbar -->
     <!-- Profile card -->
       <div class="container">
-        <div class=>
           <h2>👨‍🚀😏Hey everybody I'm Jaume!😏👨‍🚀</h2>
           <img class="rounded-circle img-circle" src="./images/profile.png" >
           <p>
@@ -48,40 +57,87 @@
             </p>
         </div>
 
-       <div class=>
-         <h2>🤞🤜 Here are some of the things i've built 🤛🤞 </h2>
-          <div class="row">
-            <div class="d-flex justify-content-between">
-              <div class="card w-50 ">
-                <img class="w-50 ml-5 mb-3"src="images/tesla.gif" alt="usedteslaworld">
-                <a href="https://www.usedteslaworld.co.uk/"> Used Tesla World</a>
-                <p>Used Tesla World is a marketplace built exclusively with no-code tools such as webflow, zapier, airtable and memberstack (recently removed).
-                </p>
+<!-- Card list -->
+      <div class="container">
+        <h2>🚀 Here are some of the things I've built: 🚀</h2>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/helio.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> <a href="https://www.Helio.events/">Helio App</a></h5>
+                <p class="card-text mb-3"> This was a 2 week project, built with Rails, HTML + CSS, and JavaScript. A Mobile-app to find new events around you. </p>
               </div>
-
-              <div class="card w-50 ml-3">
-                  <img class="w-50" src="images/helio.png" alt="">
-                <a href="https://www.Helio.events/"> Helio App</a>
-                <p>Used Tesla World is a marketplace built exclusively with no-code tools such as webflow, zapier, airtable and memberstack (recently removed).
-                </p>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/party.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="http://party-mansion.herokuapp.com/">Party Mansions</a></h5>
+                <p class="card-text">A 1 week AirBnb clone built with Rails, HTML + CSS, and JavaScript. Built for desktop-first experience. </p>
               </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col mb-4">
+            <div class="card d-flex align-items-center">
+              <img src="images/pokedex.png" class="card-img-top poke" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pokedex Api Connection</h5>
+                <p class="card-text">Input a pokemon name, and instantly find out a few of its characteristics. (Currently being built with Rails)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/SEO.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> <a href="https://seosantcugat.cat/">Seo Sant Cugat</a></h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1">
+
+          <div class="col mb-4">
+            <div class="card d-flex align-items-center">
+              <img src="images/tesla.gif" class="card-img-top tesla" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> <a href="https://www.usedteslaworld.co.uk/">Used Tesla World</a></h5>
+                <p class="card-text">Used Tesla World is a marketplace built exclusively with no-code tools such as webflow, zapier, airtable and memberstack (recently removed).</p>
+              </div>
             </div>
           </div>
 
+          <div class="col mb-4">
+            <div class="card d-flex align-items-center">
+              <img src="images/tesla.gif" class="card-img-top tesla" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> <a href="https://www.usedteslaworld.co.uk/">Used Tesla World</a></h5>
+                <p class="card-text">Used Tesla World is a marketplace built exclusively with no-code tools such as webflow, zapier, airtable and memberstack (recently removed).</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Card list -->
+
+
     <!-- # Footer -->
     <div class="footer">
       <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/JaumeRos/"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/JaumeeRos"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/jaumeros6/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jaume-ros-salvador/"><i class="fab fa-linkedin"></i></a>
       </div>
       <div class="footer-copyright">
-        This footer is made with <i class="fas fa-heart"></i>
+        This footer is made with <i class="fas fa-lightbulb"></i>
       </div>
     </div>
 
