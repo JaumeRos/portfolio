@@ -8,6 +8,7 @@ body {
 .navbar-lewagon {
   justify-content: space-between;
   background: #f8f9fa;
+  margin:0;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -109,11 +110,11 @@ body {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 400px;
+    width: 375px;
   }
 
   .profile {
-    width:45%;
+    width:75%;
   }
 
 
@@ -132,5 +133,5 @@ a {
 }
 
 .profile {
-  width:45%;
+  width:75%;
 }
