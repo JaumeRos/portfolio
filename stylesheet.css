@@ -1,6 +1,8 @@
 body {
   margin:0;
   text-align:center;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 .navbar-lewagon {
@@ -83,7 +85,7 @@ body {
 .footer-links a:hover {
   opacity: 1;
 }
-.footer .fa-lightbulb {
+.footer .fa-heart {
   color: #D23333;
 }
 
@@ -110,6 +112,10 @@ body {
     width: 400px;
   }
 
+  .profile {
+    width:45%;
+  }
+
 
 }
 
@@ -123,4 +129,8 @@ a {
 
 .poke {
   width: 25%;
+}
+
+.profile {
+  width:45%;
 }
